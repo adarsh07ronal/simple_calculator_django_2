@@ -20,33 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY ='MIIEpAIBAAKCAQEAvpXugEydPvStVFSheABJK2jht7eqIsdo5+hOBG6pXFfUP6ZV
-eCTmySxsVYy8c49c9lnjaLj3YDj6+k3yAuxEoxdonzRhGKVxg+0GE9lPBz4hHcZ3
-JOpomgLxfQokDiC3feymhZv5KBRaQXq1pcModSLDgMxR7Q9MibezwTTDFEh1W00H
-F5t/mahcf1PDTGSro7hoNeNf9N+O7Y7dWO9/g99wqK6o1NV2PYXR5dAlqRZkifam
-5/WwhX5bZGDbzF+s88IK8GRiqqUDEOrPbxR70R42kAQijntSgMKu0Y22yhDY66KC
-grdPWnCfpHnm1/jyzwuQ0Q+IED9/6S0WnopspQIDAQABAoIBAB7I5R+AQJ4cs6q9
-iN9zXF5QsLUWS7sWbtGW6pM4tM6fuT8WxROFEmpIbK9c7kvUSnXYiy0tQ3gdfBzW
-XlMuit+1NkcRFOYAQ1fF/4dRQLywwnSmzDQAUSkfdJZ3/t7xVfJXOYa3bQWWVAXj
-plfCMFTLarzxRAKAyCIutDBvL1ulGSQiE7uUX0tTXXzpwbCkht73YntzgjZPuQ9z
-ipYgH1xhlOwj3cwI4IdYqlXEQ0GXyc/5FVsyqo6iX2vQgTcdJjQ/LQVa1jnIkQZP
-SY0gsC+za2B5KhasfusEiJl2+VFfJ4G6dD3D45ZQrEqW7LvC3uihc9WUGIF5cpVe
-kyfWi/kCgYEA6k+3V7Ogx/wuQyy/7vul7KBR8MyqJPqBENsyCwa+PZl/FhwNwy1m
-k1Cihj2SjS/I63lj/AmSprp5oa5+jHad+MO5uAqT9MSWAkW94fqwNlQO0F5bxRN+
-pYgQWbESClRUMPqwqDWN2wZf6AShehxtQbEW4rAcybgDJgs02OpO0cMCgYEA0DoV
-RvonDCpyfF5yAdFkjkXZQHKCj59Yp8hx9Ny+QZCWM58iLigeP0AMUUHV+K1FQ95A
-OFTuSgopYqXHrw9gKqZmBqkR+ZzD633UwpexYhAyxuE2WnxTvnF6rDvR8HQthT3Y
-5ZC5yyPWnYZTxhiQB1EeNxNb7+GxP+xazDpbuXcCgYBr4TQK3xthuEwchZgBEj/8
-yHuxoKmdyPBvsFxEE2C3v9pxdY0oldiqbu/FWsgE1UFumT9dpZKtzSF/PXXqehqV
-lJgHkmc4xOJEPZQFXYSQHveLHEaoYCdpU1Ij2ZDyzIzO2D1J1Q5xD2hMzQUD0d7D
-5iMhT/CRN3XLqFE2pfqQPQKBgQCVQDzGDkH0z2wWRyASu4MHE3vgXPPGfGHwiZVc
-/OiGWFvBDpxSV0Eu9vqdN8JmJ9RRDDod5oqSmWwGoGtbyHqWt4TD22Xd9AbegegB
-vvdPIeszcHQkMZ9ZDz/tukcFwlBqg+U2zyDNQZfwezsK78o05Gjy8zZf3/bLqd9/
-KYlbiwKBgQDdJk3jZkj1LHm7+6HmrIdQxUFMAqLo8cBFYw50ObDiOU4ImaS4YpAv
-vWb1JeDgUOfSOrQ4Bm+zHnQgUhVWsNyDZishsyBJEnu3kjiRz0CNQmMj8bDvgfsL
-vDiVPTye8wW/N27xwpxS5aBd9PABUaNJZAzZhpeTWxK5KViaS8Mkxw=='
-    
-#'django-insecure-=dt@hk01e0)dl_^-z0yee*+_&i%=hi460t@(--jo&nl^di5d@-'
+SECRET_KEY ='django-insecure-=dt@hk01e0)dl_^-z0yee*+_&i%=hi460t@(--jo&nl^di5d@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

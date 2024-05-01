@@ -12,4 +12,4 @@ def calculate(request):
         return JsonResponse({"error": str(e)}, status=400)
     
 def home(request):
-    return HttpResponse("Welcome to the Calculator App!")
+    return JsonResponse({"message": "Welcome to the Calculator App!"})

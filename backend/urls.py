@@ -17,7 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from calculator.views import home
-path('add/', add, name='add')
+from calculator.views import add
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),

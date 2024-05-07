@@ -13,3 +13,6 @@ def calculate(request):
     
 def home(request):
     return JsonResponse({"message": "Welcome to the Calculator App!"})
+
+def add(request):
+    return HttpResponse("CALCULATOR")

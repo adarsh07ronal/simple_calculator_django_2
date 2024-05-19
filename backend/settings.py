@@ -137,3 +137,6 @@ CORS_ALLOWED_ORIGINS = [
     'https://16.170.235.38',  # Add the origin that should be allowed
     'http://localhost:3000',  # Example: Allow local development environment
 ]
+CORS_ALLOW_CREDENTIALS = True
+CORS_EXPOSE_HEADERS = ['Cookie']
+

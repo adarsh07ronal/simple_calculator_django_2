@@ -1,0 +1,14 @@
+<html>
+<head><title>Calculator</title></head>
+<body>
+    <h1>Calculate Expression</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="expression" placeholder="Enter expression">
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>

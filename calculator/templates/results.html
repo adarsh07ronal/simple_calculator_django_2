@@ -1,0 +1,12 @@
+<html>
+<head><title>Results</title></head>
+<body>
+    <h1>Stored Results</h1>
+    <ul>
+    {% for result in results %}
+        <li>{{ result.expression }} = {{ result.result }}</li>
+    {% endfor %}
+    </ul>
+    <a href="/api/calculate2/">Back to Calculator</a>
+</body>
+</html>
